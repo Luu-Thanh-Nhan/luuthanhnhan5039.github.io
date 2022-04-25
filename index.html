@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/style.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>N&1</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.list-menu li').hover(function() {
+                    $(this).find(".sub-menu").stop().fadeIn(500);
+                },
+                function() {
+                    $(this).find(".sub-menu").stop().fadeOut(300);
+                });
+        });
+    </script>
+
+
+    <div id="main">
+        <!-- ============ HEADER ===============-->
+        <div id="header">
+            
+            <div class="banner">
+                <div class="login">
+                    <div class="sub-login">
+                        <ul>
+                            <li>
+                                <p><a href="#"><i class="fas fa-user"></i>Tài khoản</a></p>
+                                <ul class="menu-login">
+                                    <li><a href="#" id="dangnhap">Đăng Nhập</a></li>
+                                    <li><a href="dangky.html" id="dangky">Đăng Ký</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-banner">
+                    <a href="index.html"><img class="logo" style="color: rgb(244, 0, 0);" src="../img/logo.png" alt="" /></a>
+                    <form action>
+                        <input type="search" placeholder="Bạn đang tìm sản phẩm nào..." />
+                    </form>
+                </div>
+            </div>
+       
+        </div>
+            <!-- star modal -->
+           
+
+<!-- =============> Dang nhap <============= -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+    <div class="modal fade" role="dialog" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #c4d3da;">
+                <div class="modal-header text-center col-md-12">
+                    <h2 class="text-center display-block"> ĐĂNG NHẬP </h2>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <label for="Username" class="control-label col-md-5">Tên đăng nhập</label>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control mb-3" id="Username" placeholder="Username">
+                        </div>
+                        <label for="Password" class="control-label col-md-5">Mật khẩu</label>
+                        <div class="col-md-12">
+                            <input type="password" class="form-control mb-4" id="Password" placeholder="Password">
+                        </div>
+                
+                        <button type="button" class="btn btn-dark form-control " id="btnSave">Đăng Nhập</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>        
+</div>
+</div>
+            <!-- ============END HEADER=============== -->
+
+
+            <nav>
+                <ul class="list-menu">
+                    <li class="dmsp" ><a href="#"><i class="fas fa-bars"></i> Danh mục sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="#converse1">Đồ bộ</a></li>
+                            <li><a href="#converse2">Áo đơn</a></li>
+                            <li><a href="#converse3">Hoodie</a></li>
+                        </ul>
+                    </li>
+                    <li class="f"><a style="color: black;" href="">Trang chủ</a></li>
+                    <li>
+                        <a href="#1">Đồ bộ <i class="fas fa-caret-down"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#">Áo đơn <i class="fas fa-caret-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Hoodie <i class="fas fa-caret-down"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#">Giảm Giá</a>
+                    </li>
+                    <li><a href="#">Tin Tức</a></li>
+                    <li><a href="#">Thông tin</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+        <div class="slider">
+            <img src="../img/new.jpg" alt="">
+        </div>
+
+        <div id="wrapper">
+            <!-- ========>END HEADER<====== -->
+
+
+            <div id="content">
+                <div class="title-body">
+                    <h2>
+                        <i class="fab fa-battle-net"></i> Đồ bộ đồng giá 800.000đ
+                        <i class="fab fa-battle-net"></i>
+                    </h2>
+                    <div class="hot-deal">
+                        <ul class="list-product">
+                            <li>
+                                <a href="#"><img class="sp2" src="../img/b1.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu Fold 1</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="../img/b2.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu Fold 2</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/b3.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu FCome 1</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/b4.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu FCome 2</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                        </ul>
+
+                        <ul class="list-product">
+                            <div>
+                                <li>
+                                    <a href="#"><img src="../img/b5.jpg" alt=""></a>
+                                    <p>Đồ bộ Shop </p>
+                                    <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                                </li>
+                            </div>
+                            <li>
+                                <a href="c#"><img src="../img/b6.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu ---</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/b7.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu Yald</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/b8.jpg" alt=""></a>
+                                <p>Đồ bộ kiểu đêm</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- ===========> Star Product <============ -->
+
+
+                <div id="box-product">
+                    <div class="box-head">
+                        <p id="converse">Áo đơn</p>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-product">
+                            <li>
+                                <a href="#"><img src="../img/d1.jpg" alt=""></a>
+                                <p>Áo 4047</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/d2.jpg" alt=""></a>
+                                <p>Áo 4016</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/d3.jpg" alt=""></a>
+                                <p>Áo 4034</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/d7.jpg" alt=""></a>
+                                <p>Áo 5218</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                        </ul>
+
+                        <ul class="list-product">
+                            <li>
+                                <a href="#"><img src="../img/d4.jpg" alt=""></a>
+                                <p>Áo 4050</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/d5.png" alt=""></a>
+                                <p>Áo 4049</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/d6.png" alt=""></a>
+                                <p>Áo 5024</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/d8.png" alt=""></a>
+                                <p>Áo 52222</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="box-head">
+                        <p id="vans">Hoddie</p>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-product">
+                            <div>
+                                <li>
+                                    <a href="#"><img src="../img/h1.jpg" alt=""></a>
+                                    <p>Hoddie 1325</p>
+                                    <a class="buy-now" href="">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                                </li>
+                            </div>
+                            <li>
+                                <a href="#"><img src="../img/h2.jpg" alt=""></a>
+                                <p>Hoddie 4658</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/h3.jpg" alt=""></a>
+                                <p>Hoddie 8876</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/h8.jpg" alt=""></a>
+                                <p>Hoddie 9865</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="list-product">
+                            <div>
+                                <li>
+                                    <a href="#"><img src="../img/h4.jpg" alt=""></a>
+                                    <p>Hoddie 1238</p>
+                                    <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                                </li>
+                            </div>
+                            <li>
+                                <a href="#"><img src="../img/h5.jpg" alt=""></a>
+                                <p>Hoddie 1234</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/h6.jpg" alt=""></a>
+                                <p>Hoddie 7893</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img/h7.jpg" alt=""></a>
+                                <p>Hoddie 1238</p>
+                                <a class="buy-now" href="#">MUA NGAY <i class="fas fa-cart-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ========> END CONTENT <======== -->
+            </div>
+        </div>
+
+
+        <!-- FORM -->
+        <div id="section">
+            
+            <div class="form">
+                <div class="container form-flex">
+                    <div class="form-today">
+                        <h2 class="large-heading">Giờ mở cửa</h2>   
+                        
+                        <div class="form-today__days-time text-center">
+                          <p class="">Thứ 2 - Thứ 6 hàng tuần</p>
+                          <p class="text-secondary">7am – 10pm</p>
+                        </div>
+  
+                        <div class="form-today__days-time text-center mt-30 mb-40">
+                          <p class="color-form-1">Thứ 7, Chủ nhật hàng tuần</p>
+                          <p class="text-secondary">8am – 12pm</p>
+                        </div>
+  
+                        <div class="form-today__number text-center">
+                            <span class="form-today__number-sdt">Số điện thoại</span>
+                            <a class="form-today__number-link" href="tel:0363984479">0363984479</a>
+                        </div>
+                    </div>
+  
+                    <div class="form-place text-center">
+                        <h2 class="form-place__title">Ưu đãi cho khách hàng mới</h2>
+                        <span class="form-place__desc">Đăng ký lần đầu khi mua hàng tại shop để được giảm giá lần đầu tận 70%</span>
+                        <div class="form-main">
+                            <form action="">
+                                <p><a href="dangky.html"><i class="fas fa-user"></i>Đăng ký</a></p>            
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+                <div class="service-wrapper">
+                    <div class="service-main">
+                        <div class="service-main__content">
+                            <img class="service-main__content-image" src="../img/service-1.png" alt="service-image">
+                            <span class="service-main__content-desc">
+                                Áo chất lượng hàng
+                                <br>
+                                đầu của Việt Nam
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="service-main">
+                        <div class="service-main__content">
+                            <img class="service-main__content-image" src="../img/service-2.png" alt="service-image">
+                            <span class="service-main__content-desc">
+                                Giao hàng nhanh chóng
+                                <br>
+                                tận tay khách hàng
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="service-main">
+                        <div class="service-main__content">
+                            <img class="service-main__content-image" src="../img/service-3.png" alt="service-image">
+                            <span class="service-main__content-desc">
+                                Khuyến mãi tiết kiệm 
+                                <br>
+                                chi phí ưu đãi
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+                
+        
+
+        <!-- ====> FOOTER <===== -->
+        <div class="footer">
+                <div class="container">
+                    <div class="footer-main">
+                        <div class="footer-main__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.858527302669!2d106.68458301474442!3d10.822136761307684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e548200413%3A0xdbf245c4ae10416d!2zTmd1eeG7hW4gVsSDbiBC4bqjbywgR8OyIFbhuqVwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1621167205348!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+
+                        <div class="footer-list">
+                            <div class="footer-wraper-1">
+                                <p class="footer-list__title">
+                                    Chúng tôi là <strong> N&1 </strong> 
+                                </p>
+    
+                                <ul class="footer-address font-15">
+                                    <li class="footer-address__items">
+                                        <i class="footer-icon fas fa-map-marker-alt"></i><span class="footer-address__items-none">Địa chỉ: HCM - 12 Nguyển Văn Bảo - Quận Thủ Đức</span>
+                                    </li>
+                                    <li class="footer-address__items">
+                                        <i class="footer-icon fas fa-phone-alt"></i><a href="#" class="footer-address__items-link" tel: >0363984479</a>
+                                    </li>
+                                    <li class="footer-address__items">
+                                        <i class="footer-icon fas fa-envelope"></i><a href="#" class="footer-address__items-link">LuuThanhNhan5039@gmail.com</a>
+                                    </li>
+                                </ul>
+    
+                                <div class="footer-info">
+                                    <i class="footer-info__icon fab fa-facebook-f"></i>
+                                    <i class="footer-info__icon fab fa-youtube"></i>
+                                    <i class="footer-info__icon fab fa-instagram"></i>
+                                </div>
+
+                                <p class="footer-desc">Cảm ơn các bạn đã dành thời gian quý báu của mình cho shop của chúng tôi.
+                                    Nếu như các bạn có gì cần hỗ trợ hãy gọi ngay cho hotline nay: 0363984479.
+                                    Xin chân thành cảm ơn quý khách!
+                                </p>
+                            </div>
+                        </div>   
+                    </div>
+                  
+                </div>
+                <div class="copyright">
+                        <div class="copyright-main">
+                          @2022 - <span class="copyright-main__color">Shop N&1</span> 
+                          <span class="copyright-mobile-1"> | </span> 
+                          <span class="copyright-mobile-2">
+                            WEB
+                            <span class="copyright-main__name">Lưu Thành Nhân</span>
+                          </span>
+                        </div>
+
+                        <div class="top">
+                            <a class="top-link" href="#">Lên đầu trang <i class="top-icon fas fa-chevron-up"></i></a>
+                        </div>
+                </div>  
+
+            </div>
+        </div>
+</body>
+
+</html>
