@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+    <script src="../js/jquery.js"></script>
+    <script src="../js/style.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>N&1</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.btn').click(function(){
+                alert('Đăng ký thành công !')
+            });
+        })
+    </script>
+
+
+    <div id="main">
+        <!-- ============ HEADER ===============-->
+        <div id="header">
+            
+            <div class="banner">
+                <div class="login">
+                    <div class="sub-login">
+                        <ul>
+                            <li>
+                                <p><a href=""><i class="fas fa-user"></i>Tài khoản</a></p>
+                                <ul class="menu-login">
+                                    <li><a href="#" id="dangnhap">Đăng Nhập</a></li>
+                                    <li><a href="#" id="dangky">Đăng Ký</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p><a href=""><i class="fas fa-map-marker-alt"></i>Hệ thống cửa hàng</a></p>
+                    </div>
+                </div>
+                <div class="sub-banner">
+                    <a href="index.html"><img class="logo" style="color: red;" src="../img/logo.png" alt="" /></a>
+                    
+                    <form action>
+                        <input type="search" placeholder="Bạn đang tìm sản phẩm nào..." />
+                    </form>
+                </div>
+            </div>
+       
+        </div>
+            <!-- star modal -->
+            
+
+<!-- =============> Dang nhap <============= -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+    <div class="modal fade" role="dialog" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #c4d3da;">
+                <div class="modal-header text-center col-md-12">
+                    <h2 class="text-center display-block"> ĐĂNG NHẬP </h2>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <label for="Username" class="control-label col-md-5">Tên đăng nhập</label>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control mb-3" id="Username" placeholder="Username">
+                        </div>
+                        <label for="Password" class="control-label col-md-5">Mật khẩu</label>
+                        <div class="col-md-12">
+                            <input type="password" class="form-control mb-4" id="Password" placeholder="Password">
+                        </div>
+                        
+                        <button type="button" class="btn btn-dark form-control " id="btnSave">Đăng Nhập</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>        
+</div>
+</div>
+            <!-- ============END HEADER=============== -->
+
+
+            <nav>
+                <ul class="list-menu">
+                    <li class="dmsp" ><a href="#"><i class="fas fa-bars"></i> Danh mục sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="#converse">Đồ bộ</a></li>
+                            <li><a href="#converse">Áo đơn</a></li>
+                            <li><a href="#converse">Hoodie</a></li>
+                        </ul>
+                    </li>
+                    <li class="f"><a style="color: black;" href="">Trang chủ</a></li>
+                    <li>
+                        <a href="#">Đồ bộ <i class="fas fa-caret-down"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#">Áo đơn <i class="fas fa-caret-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Hoodie <i class="fas fa-caret-down"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#">Giảm Giá</a>
+                    </li>
+                    <li><a href="#">Tin Tức</a></li>
+                    <li><a href="#">Thông tin</a></li>
+
+
+                </ul>
+            </nav>
+        
+        <div class="slider">
+            <img src="img/slider_3.png" alt="">
+        </div>
+        
+<div class="dangky">
+        <div class="container">
+            <form action="">
+                <h5 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h5>
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input  class="form-control" type="text" id="fname" name="firstname" placeholder="Tên đăng nhập..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input  class="form-control" type="password" id="lname" name="lastname" placeholder="Mật khẩu">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input class="form-control" type="password" id="lname" name="lastname" placeholder="Nhập lại mật khẩu">
+                </div>
+              </div>
+              <hr>
+              <h5 class="text-center">THÔNG TIN KHÁCH HÀNG</h5>
+              
+              
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input  class="form-control" type="text" id="fname" name="firstname" placeholder="Họ và tên...">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                    <div class="input-group-prepend">
+                        
+                      
+                  <input  class="form-control" type="text" id="fname" name="firstname" placeholder="Email...">
+                  <span class="input-group-text" id="inputGroupPrepend">@email.com</span>
+                </div>
+                </div>
+              </div>
+              
+              
+
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input  class="form-control" type="date" id="fname" >
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input  class="form-control" type="text" id="fname" placeholder="Số điện thoại..." >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                    <label for="man">Nam</label>
+                  <input class="" type="radio" name="gender" id="man">
+                  <label for="girl">Nữ</label>
+                  <input class="" type="radio" name="gender" id="girl">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <input  class="form-control" type="text" id="fname" placeholder="Địa chỉ..." >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  
+                </div>
+                <div class="col-75">
+                  <button class="form-control btn btn-success mt-3">Đăng ký</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-main__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.858527302669!2d106.68458301474442!3d10.822136761307684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e548200413%3A0xdbf245c4ae10416d!2zTmd1eeG7hW4gVsSDbiBC4bqjbywgR8OyIFbhuqVwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1621167205348!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="footer-list">
+                        <div class="footer-wraper-1">
+                            <p class="footer-list__title">
+                                Chúng tôi là <strong> N&1 </strong> 
+                            </p>
+
+                            <ul class="footer-address font-15">
+                                <li class="footer-address__items">
+                                    <i class="footer-icon fas fa-map-marker-alt"></i><span class="footer-address__items-none">Địa chỉ: HCM - 12 Nguyễn Văn Bảo - Quận Gò Vấp</span>
+                                </li>
+                                <li class="footer-address__items">
+                                    <i class="footer-icon fas fa-phone-alt"></i><a href="#" class="footer-address__items-link" tel: >0363984479</a>
+                                </li>
+                                <li class="footer-address__items">
+                                    <i class="footer-icon fas fa-envelope"></i><a href="#" class="footer-address__items-link">luuthanhnhan5039@gmail.com</a>
+                                </li>
+                            </ul>
+
+                            <div class="footer-info">
+                                <i class="footer-info__icon fab fa-facebook-f"></i>
+                                <i class="footer-info__icon fab fa-youtube"></i>
+                                <i class="footer-info__icon fab fa-instagram"></i>
+                            </div>
+
+                            <p class="footer-desc">Cảm ơn các bạn đã dành thời gian quý báu của mình cho shop của chúng tôi.
+                                Nếu như các bạn có gì cần hỗ trợ hãy gọi ngay cho hotline nay: 0363984479.
+                                Xin chân thành cảm ơn quý khách! 
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+              
+            </div>
+            <div class="copyright">
+                    <div class="copyright-main">
+                      @2022 - <span class="copyright-main__color">N&1</span> 
+                      <span class="copyright-mobile-1"> | </span> 
+                      <span class="copyright-mobile-2">
+                        WEB
+                        <span class="copyright-main__name">Lưu Thành Nhâm</span>
+                      </span>
+                    </div>
+
+                    <div class="top">
+                        <a class="top-link" href="#header">Lên đầu trang <i class="top-icon fas fa-chevron-up"></i></a>
+                    </div>
+            </div>  
+    </div>
+</body>
+</html>
